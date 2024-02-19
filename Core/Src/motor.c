@@ -1,5 +1,6 @@
 #include "motor.h"
-//1为高电平，0为低电平
+
+
 void go()
 {
     HAL_GPIO_WritePin(m1_GPIO_Port, m1_Pin, GPIO_PIN_SET);   // 1
